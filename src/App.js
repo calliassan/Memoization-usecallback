@@ -5,6 +5,7 @@ import React, { useCallback } from "react";
 import { useState } from "react";
 
 function App() {
+  // *******concept 1*******
   const [toggle, settoggle] = useState(false);
   const handleClick = () => {
     settoggle(!toggle);
@@ -25,7 +26,7 @@ function App() {
       </button>
       {/* <A toggle={toggle} /> */}
       {/* ****check concept2**** */}
-      {/* <A val={val}/> */}
+      {/* <A val={val} /> */}
       {/* ***concept 3*** */}
       <A callme={callme} />
     </div>
